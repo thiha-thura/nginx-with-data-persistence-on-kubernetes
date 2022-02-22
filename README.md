@@ -18,11 +18,13 @@ Apply the nginx deployment by running the following Command
 kubectl apply -f nginx-deployment.html
 
 Step04
+
 Expose the Deployment as a LoadBalancer service by running following Command
 
 kubectl apply -f nginx-deployment.html
 
 Step05
+
 Check the Pods and Public IP by Running Following Command
 
 kubectl get pod
